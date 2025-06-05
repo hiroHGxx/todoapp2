@@ -10,10 +10,11 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-Run the application:
+Run the application (the port can be configured via the `PORT` environment variable):
 
 ```bash
 python app.py
 ```
 
-The app will be available at [http://localhost:5000](http://localhost:5000).
+By default the app runs on port 5000 and is accessible at
+[http://localhost:5000](http://localhost:5000).
